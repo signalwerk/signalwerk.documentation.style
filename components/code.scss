@@ -1,0 +1,50 @@
+code, kbd, pre, samp {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 0;
+
+  font-size: map-get($fontFactors, code);
+  @media print {
+    font-size: map-get($fontSizesPrint, code);
+
+  }
+}
+
+ul code, p code, table code {
+  display: inline-block;
+  background-color: #e3e3e3;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  @media print {
+      -webkit-print-color-adjust: exact;
+  }
+  font-size: map-get($fontFactors, p);
+  @media print {
+    font-size: map-get($fontSizesPrint, p);
+  }
+}
+
+
+
+.code {
+    padding: 0.4rem 0.5rem;
+
+    background-color: #e3e3e3;
+    @media print {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+.code + p {
+    padding-top: 0.4rem;
+    line-height: 1.3;
+
+    em {
+        font-style: normal;
+        font-size: map-get($fontFactors, small);
+        @media print {
+            font-size: map-get($fontSizesPrint, small);
+        }
+    }
+}

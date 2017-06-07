@@ -1,0 +1,22 @@
+{
+  "name": "style.doc",
+  "version": "0.0.1",
+  "description": "stylesheets for documentation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalwerk/style.DOC.git"
+  },
+  "keywords": [
+    "scss",
+    "style"
+  ],
+  "author": "Stefan Huber – sh@signalwerk.ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/signalwerk/style.DOC/issues"
+  },
+  "homepage": "https://github.com/signalwerk/style.DOC#readme"
+}

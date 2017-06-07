@@ -4,41 +4,41 @@ table {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 th {
-  text-align: left;
+    text-align: left;
 }
 
 tr {
-   border-bottom: 0.12rem solid #ccc;
-   @media print {
-     page-break-inside: avoid;
-   }
+    border-bottom: 0.12rem solid #ccc;
+    @media print {
+        page-break-inside: avoid;
+    }
 }
 
-td, th {
-  vertical-align: top;
-  img {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
+td,
+th {
+    vertical-align: top;
 
+    img {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
 
 table {
-  @for $i from 1 through 20 {
-    .w#{$i * 5}p {
-      width: 5% * $i;
+    @for $i from 1 through 20 {
+        .w#{$i * 5}p {
+            width: 5% * $i;
+        }
     }
-  }
-
-  @for $i from 1 through 10 {
-    .imgW#{$i}0p img {
-      width: 10% * $i;
+    @for $i from 1 through 10 {
+        .imgW#{$i}0p img {
+            width: 10% * $i;
+        }
     }
-  }
 
-
-  .w33p {
-    width: 33.33%;
-  }
+    .w33p {
+        width: 33.33%;
+    }
 }

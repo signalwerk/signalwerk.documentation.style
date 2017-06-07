@@ -1,12 +1,13 @@
 // Table of content
+
 .TOC {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  @media print {
-    display: none;
-  }
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @media print {
+        display: none;
+    }
 }
 
 .table-of-contents a:before {
-    content:"";
+    content: "";
 }

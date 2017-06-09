@@ -1,13 +1,10 @@
 {
-  "name": "style.doc",
-  "version": "0.0.1",
+  "name": "signalwerk.documentation.style",
+  "version": "0.0.7",
   "description": "stylesheets for documentation",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/signalwerk/style.DOC.git"
+    "url": "git+https://github.com/signalwerk/signalwerk.documentation.style.git"
   },
   "keywords": [
     "scss",
@@ -16,7 +13,11 @@
   "author": "Stefan Huber – sh@signalwerk.ch",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/signalwerk/style.DOC/issues"
+    "url": "https://github.com/signalwerk/signalwerk.documentation.style/issues"
   },
-  "homepage": "https://github.com/signalwerk/style.DOC#readme"
+  "homepage": "https://github.com/signalwerk/signalwerk.documentation.style#readme",
+  "scripts": {
+    "npm:publish:next": "npm publish --tag next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

@@ -17,73 +17,10 @@
     }
 }
 @media print {
-    html {
-        .hljs {
-            color: #000;
-        }
 
-        .hljs-comment,
-        .hljs-meta,
-        .hljs-quote {
-            color: #000;
-        }
-
-        .hljs-keyword,
-        .hljs-name,
-        .hljs-selector-tag,
-        .hljs-tag {
-            color: #000;
-        }
-
-        .hljs-attribute,
-        .hljs-selector-id,
-        .hljs-tag .hljs-attr {
-            color: #000;
-        }
-
-        .hljs-addition,
-        .hljs-selector-attr,
-        .hljs-selector-pseudo,
-        .hljs-string {
-            color: #000;
-        }
-
-        .hljs-subst {
-            color: #000;
-        }
-
-        .hljs-link,
-        .hljs-regexp {
-            color: #000;
-        }
-
-        .hljs-doctag,
-        .hljs-section,
-        .hljs-title,
-        .hljs-type {
-            color: #000;
-        }
-
-        .hljs-bullet,
-        .hljs-literal,
-        .hljs-symbol,
-        .hljs-template-variable,
-        .hljs-variable {
-            color: #000;
-        }
-
-        .hljs-deletion,
-        .hljs-number {
-            color: #000;
-        }
-    }
     @page {
         size: A4;
         margin: 5mm 10mm 7mm 25mm;
-    }
-
-    .headroom-wrapper {
-        display: none;
     }
 
     * {
@@ -108,7 +45,7 @@
             display: inline-block;
             font-size: map-get($fontSizesPrint, small) * 0.9;
             padding-top: 0.4em;
-            content: "Web · Stefan Huber · 2017 · CC BY-SA 4.0";
+            content: "Signalwerk GmbH · Stefan Huber · CC BY-SA 4.0";
             float: left;
             white-space: nowrap;
             text-align: left;

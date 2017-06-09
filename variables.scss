@@ -22,16 +22,15 @@ $susySetup: (
 
 // Colors
 // ==========================================================================
-$cWhite:            #ffffff	;
-$cText:             darken($cWhite, 94%);
+$cWhite: #ffffff	;
+$cText: darken($cWhite, 94%);
 
-
-$cLink:             red;
-$cLinkHover:        geen;
+$cLink: red;
+$cLinkHover: geen;
 
 $cBackgroundColor: #5e5e5e;
-$cSqareDark:       #444444;
-$cLightOnBackground:      #ababab;
+$cSqareDark: #444444;
+$cLightOnBackground: #ababab;
 
 
 
@@ -46,8 +45,8 @@ $totalWideW: 1200px;      // total width for wiede screen
 
 
 $font-name: (
-  sans: 'OpenSansSignalwerk',
-  serif: 'MerriweatherSignalwerk'
+  sans: 'Helvetica',
+  serif: 'Georgia'
 );
 
 $font-family: (
@@ -87,5 +86,4 @@ $fontSizesPrint: (
 // Layout
 // ==========================================================================
 $contentWidth:     980px;
-
 $paddingContentLogo: 50px;

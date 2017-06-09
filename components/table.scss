@@ -16,6 +16,10 @@ tr {
     }
 }
 
+td.nums {
+	text-align: right;
+}
+
 td,
 th {
     vertical-align: top;
@@ -40,5 +44,17 @@ table {
 
     .w33p {
         width: 33.33%;
+    }
+}
+
+
+
+table {
+    font-feature-settings: "lnum" 1, "tnum" 1;
+}
+@supports (font-variant-numeric: lining-nums) {
+    table {
+        font-feature-settings: normal;
+        font-variant-numeric: lining-nums tabular-nums;
     }
 }

@@ -89,6 +89,14 @@ a:before {
     content: "→ ";
 }
 
+// hide arrow before external links 
+a[href^="http"]:before,
+a[href^="slack:"]:before,
+a[href^="mailto:"]:before,
+a[href^="tel:"]:before {
+  display: none;
+}
+
 li a:before {
     content: " ";
 }

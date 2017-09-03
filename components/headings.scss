@@ -19,6 +19,11 @@ h5 {
 h1,
 h2 {
     @include font-bold(serif);
+    letter-spacing: .01em;
+    .capitals {
+      font-size: 0.94em;
+      letter-spacing: .04em;
+    }
     color: #444;
     @media print {
         color: black;
